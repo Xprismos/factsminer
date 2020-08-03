@@ -1,0 +1,188 @@
+body {
+
+    background-color: #1b1c1d;
+    color: grey ;
+    margin: 0px;
+
+}
+
+.head {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1b1c1d;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    
+}
+
+.hr {
+
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    
+}
+
+
+.body {
+
+    display: flex;
+    flex-direction: column;
+    padding : 13px;
+    text-align: center;
+    background-color: #f3f7fa;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.facts {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f7fa;  
+    position: relative;
+    margin-top: 20px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    font-size: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+img {
+
+    width: 340px;
+    height: 290px;
+    align-content: center; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+    border-radius: 16px;
+    
+
+
+}
+
+.button {
+
+    display: flex;
+    background-color: #1678c2; 
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 9px;
+    cursor: pointer;
+    
+     
+}
+
+.button {border-radius: 100px;}
+
+.nex { 
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    align-self: flex-start;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+
+footer{
+
+    
+    display: flex;
+    flex-direction: column;
+    align-content: right;
+    background-color:  #1b1c1d;
+    color: white;
+    font-size: 13px;
+    position: relative;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+
+
+
+
+.lini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    height: 40%;
+    
+    padding: 5px;
+
+}
+
+
+
+
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    position: relative;
+    margin-left: 12px;
+}
+
+input[type=submit]{
+    margin: 0em;
+    margin-top: 5px;
+    color: white;
+    background-color: rgb(13, 136, 207);
+    border: 5px solid rgb(13, 136, 207) ;
+    border-radius: 2px;
+}
+
+textarea {
+    height: 114px;
+    width: 221px;
+}
+
+
+.iny {
+    font-size: 7px;
+}
+
+
+.code {
+    margin: 5px;
+    width: 100%;
+    font-weight: bold;
+}
